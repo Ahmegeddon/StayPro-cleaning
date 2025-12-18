@@ -148,7 +148,7 @@ export default function Contact() {
                 </a>
 
                 <a 
-                  href="mailto:hello@sparklestay.ae" 
+                  href="mailto:hello@hygexcleaning.ae" 
                   className="flex items-start gap-4 p-4 rounded-xl bg-slate-50 hover:bg-teal-50 transition-colors group"
                 >
                   <div className="w-12 h-12 rounded-lg bg-teal-100 flex items-center justify-center flex-shrink-0 group-hover:bg-teal-200 transition-colors">
@@ -156,7 +156,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="font-semibold text-slate-900">Email</p>
-                    <p className="text-slate-600">hello@sparklestay.ae</p>
+                    <p className="text-slate-600">hello@hygexcleaning.ae</p>
                   </div>
                 </a>
 

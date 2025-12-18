@@ -14,7 +14,7 @@ export default function Footer() {
               <div className="w-10 h-10 rounded-lg bg-teal-600 flex items-center justify-center">
                 <Sparkles className="w-6 h-6 text-white" />
               </div>
-              <span className="text-xl font-bold">SparkleStay</span>
+              <span className="text-xl font-bold">Hygex Cleaning</span>
             </Link>
             <p className="text-slate-400 leading-relaxed">
               Professional Airbnb and short-term rental cleaning services. 
@@ -100,7 +100,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-slate-800 flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-slate-500 text-sm">
-            © {new Date().getFullYear()} SparkleStay. All rights reserved.
+            © {new Date().getFullYear()} Hygex Cleaning. All rights reserved.
           </p>
           <div className="flex gap-6">
             <a href="#" className="text-slate-500 hover:text-slate-400 text-sm">Privacy Policy</a>

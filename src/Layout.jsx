@@ -38,7 +38,7 @@ export default function Layout({ children, currentPageName }) {
               <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-teal-500 to-teal-600 flex items-center justify-center">
                 <Sparkles className="w-6 h-6 text-white" />
               </div>
-              <span className="text-xl font-bold text-slate-900">SparkleStay</span>
+              <span className="text-xl font-bold text-slate-900">Hygex Cleaning</span>
             </Link>
 
             {/* Desktop Navigation */}
