@@ -9,6 +9,7 @@ import Footer from '@/components/common/Footer';
 const navLinks = [
   { name: 'Home', page: 'Home' },
   { name: 'Airbnb Cleaning', page: 'AirbnbCleaning' },
+  { name: 'Full Management', page: 'AirbnbManagement' },
   { name: 'Other Services', page: 'OtherServices' },
   { name: 'Contact', page: 'Contact' },
 ];

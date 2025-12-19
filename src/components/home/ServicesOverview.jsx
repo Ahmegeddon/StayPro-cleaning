@@ -7,7 +7,8 @@ import {
   Truck, 
   Building, 
   Hammer,
-  ArrowRight 
+  ArrowRight,
+  Building as BuildingIcon
 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from '@/utils';
@@ -19,6 +20,13 @@ const services = [
     description: 'Full turnover cleaning between guests with hotel-standard results. Our specialty.',
     highlight: true,
     link: 'AirbnbCleaning',
+  },
+  {
+    icon: Building,
+    title: 'Full Property Management',
+    description: 'Hands-free Airbnb management. We handle everything — bookings, guests, cleaning, listings — you just collect profits.',
+    highlight: true,
+    link: 'AirbnbManagement',
   },
   {
     icon: Sparkles,
@@ -81,7 +89,7 @@ export default function ServicesOverview() {
         </motion.div>
 
         {/* Services Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 max-w-7xl mx-auto">
           {services.map((service, index) => (
             <motion.div
               key={service.title}

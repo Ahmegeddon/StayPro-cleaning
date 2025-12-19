@@ -29,6 +29,7 @@ export default function Footer() {
               {[
                 { name: 'Home', page: 'Home' },
                 { name: 'Airbnb Cleaning', page: 'AirbnbCleaning' },
+                { name: 'Full Management', page: 'AirbnbManagement' },
                 { name: 'Other Services', page: 'OtherServices' },
                 { name: 'Contact Us', page: 'Contact' },
               ].map((link) => (
@@ -50,10 +51,10 @@ export default function Footer() {
             <ul className="space-y-3">
               {[
                 'Airbnb Cleaning',
+                'Full Property Management',
                 'Deep Cleaning',
                 'Move-In/Move-Out',
                 'Office Cleaning',
-                'Post-Renovation',
               ].map((service) => (
                 <li key={service}>
                   <span className="text-slate-400">{service}</span>
