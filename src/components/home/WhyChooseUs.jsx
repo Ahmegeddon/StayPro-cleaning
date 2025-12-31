@@ -1,46 +1,46 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { 
-  Award, 
-  Clock, 
-  Users, 
-  CalendarCheck, 
-  CheckCircle2, 
-  Zap 
-} from 'lucide-react';
+import {
+  Award,
+  Clock,
+  Users,
+  CalendarCheck,
+  CheckCircle2,
+  Zap } from
+'lucide-react';
 
 const reasons = [
-  {
-    icon: Award,
-    title: 'Airbnb Specialists',
-    description: 'We understand short-term rental standards and what guests expect.',
-  },
-  {
-    icon: Users,
-    title: 'Trained Teams',
-    description: 'Professional cleaners trained specifically for hospitality cleaning.',
-  },
-  {
-    icon: Clock,
-    title: 'Always On Time',
-    description: 'Reliable scheduling aligned with your check-in/check-out times.',
-  },
-  {
-    icon: CalendarCheck,
-    title: 'Flexible Scheduling',
-    description: 'Same-day bookings and last-minute requests accommodated.',
-  },
-  {
-    icon: CheckCircle2,
-    title: 'Quality Control',
-    description: 'Detailed inspection checklist ensures consistent 5-star results.',
-  },
-  {
-    icon: Zap,
-    title: 'Fast Turnovers',
-    description: 'Quick, efficient cleaning between guests without compromising quality.',
-  },
-];
+{
+  icon: Award,
+  title: 'Airbnb Specialists',
+  description: 'We understand short-term rental standards and what guests expect.'
+},
+{
+  icon: Users,
+  title: 'Trained Teams',
+  description: 'Professional cleaners trained specifically for hospitality cleaning.'
+},
+{
+  icon: Clock,
+  title: 'Always On Time',
+  description: 'Reliable scheduling aligned with your check-in/check-out times.'
+},
+{
+  icon: CalendarCheck,
+  title: 'Flexible Scheduling',
+  description: 'Same-day bookings and last-minute requests accommodated.'
+},
+{
+  icon: CheckCircle2,
+  title: 'Quality Control',
+  description: 'Detailed inspection checklist ensures consistent 5-star results.'
+},
+{
+  icon: Zap,
+  title: 'Fast Turnovers',
+  description: 'Quick, efficient cleaning between guests without compromising quality.'
+}];
+
 
 export default function WhyChooseUs() {
   return (
@@ -52,8 +52,8 @@ export default function WhyChooseUs() {
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-          >
+            transition={{ duration: 0.6 }}>
+
             <span className="text-teal-600 font-semibold text-sm uppercase tracking-wider">
               Why Choose Us
             </span>
@@ -70,11 +70,11 @@ export default function WhyChooseUs() {
               <img
                 src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=700&q=80"
                 alt="Professional cleaning team"
-                className="w-full h-72 object-cover"
-              />
+                className="w-full h-72 object-cover" />
+
               <div className="absolute inset-0 bg-gradient-to-r from-teal-600/80 to-teal-600/40 flex items-center justify-center">
                 <div className="text-white text-center">
-                  <p className="text-5xl font-bold">500+</p>
+                  <p className="text-5xl font-bold">20+</p>
                   <p className="text-lg mt-2">Happy Airbnb Hosts</p>
                 </div>
               </div>
@@ -83,15 +83,15 @@ export default function WhyChooseUs() {
 
           {/* Right Grid */}
           <div className="grid sm:grid-cols-2 gap-6">
-            {reasons.map((reason, index) => (
-              <motion.div
-                key={reason.title}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
-                className="bg-white rounded-xl p-6 shadow-sm border border-slate-100 hover:shadow-md transition-shadow"
-              >
+            {reasons.map((reason, index) =>
+            <motion.div
+              key={reason.title}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: index * 0.1 }}
+              className="bg-white rounded-xl p-6 shadow-sm border border-slate-100 hover:shadow-md transition-shadow">
+
                 <div className="w-12 h-12 rounded-lg bg-teal-50 flex items-center justify-center mb-4">
                   <reason.icon className="w-6 h-6 text-teal-600" />
                 </div>
@@ -102,10 +102,10 @@ export default function WhyChooseUs() {
                   {reason.description}
                 </p>
               </motion.div>
-            ))}
+            )}
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 }
