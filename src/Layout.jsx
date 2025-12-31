@@ -23,9 +23,9 @@ export default function Layout({ children, currentPageName }) {
       <div className="bg-slate-900 text-white py-2 hidden sm:block">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center text-sm">
           <span className="text-slate-400">Professional Airbnb & Short-Term Rental Cleaning</span>
-          <a href="tel:+971500000000" className="flex items-center gap-2 hover:text-teal-400 transition-colors">
+          <a href="tel:+971508695064" className="flex items-center gap-2 hover:text-teal-400 transition-colors">
             <Phone className="w-4 h-4" />
-            +971 50 000 0000
+            +971 50 869 5064
           </a>
         </div>
       </div>

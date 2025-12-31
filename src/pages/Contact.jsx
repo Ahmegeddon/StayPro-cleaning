@@ -128,7 +128,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="font-semibold text-slate-900">Phone</p>
-                    <p className="text-slate-600">+971 50 000 0000</p>
+                    <p className="text-slate-600">+971 50 869 5064</p>
                   </div>
                 </a>
 
@@ -239,7 +239,7 @@ export default function Contact() {
                       <Input
                         id="phone"
                         type="tel"
-                        placeholder="+971 50 000 0000"
+                        placeholder="+971 50 869 5064"
                         value={formData.phone}
                         onChange={(e) => handleChange('phone', e.target.value)}
                         required
