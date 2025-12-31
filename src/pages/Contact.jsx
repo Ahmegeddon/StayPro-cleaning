@@ -120,7 +120,7 @@ export default function Contact() {
 
               <div className="space-y-6">
                 <a 
-                  href="tel:+971500000000" 
+                  href="tel:+971508695064" 
                   className="flex items-start gap-4 p-4 rounded-xl bg-slate-50 hover:bg-teal-50 transition-colors group"
                 >
                   <div className="w-12 h-12 rounded-lg bg-teal-100 flex items-center justify-center flex-shrink-0 group-hover:bg-teal-200 transition-colors">
@@ -133,7 +133,7 @@ export default function Contact() {
                 </a>
 
                 <a 
-                  href="https://wa.me/971500000000" 
+                  href="https://wa.me/971508695064" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-start gap-4 p-4 rounded-xl bg-slate-50 hover:bg-green-50 transition-colors group"
