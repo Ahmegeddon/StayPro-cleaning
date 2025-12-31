@@ -1,17 +1,17 @@
-import Home from './pages/Home';
 import AirbnbCleaning from './pages/AirbnbCleaning';
-import OtherServices from './pages/OtherServices';
-import Contact from './pages/Contact';
 import AirbnbManagement from './pages/AirbnbManagement';
+import Contact from './pages/Contact';
+import Home from './pages/Home';
+import OtherServices from './pages/OtherServices';
 import __Layout from './Layout.jsx';
 
 
 export const PAGES = {
-    "Home": Home,
     "AirbnbCleaning": AirbnbCleaning,
-    "OtherServices": OtherServices,
-    "Contact": Contact,
     "AirbnbManagement": AirbnbManagement,
+    "Contact": Contact,
+    "Home": Home,
+    "OtherServices": OtherServices,
 }
 
 export const pagesConfig = {

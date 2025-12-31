@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from '@/utils';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Sparkles, Menu, X, Phone, ChevronDown } from 'lucide-react';
+import { Home, Menu, X, Phone, ChevronDown } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import Footer from '@/components/common/Footer';
 
@@ -37,9 +37,9 @@ export default function Layout({ children, currentPageName }) {
             {/* Logo */}
             <Link to={createPageUrl('Home')} className="flex items-center gap-2">
               <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-teal-500 to-teal-600 flex items-center justify-center">
-                <Sparkles className="w-6 h-6 text-white" />
+                <Home className="w-6 h-6 text-white" />
               </div>
-              <span className="text-xl font-bold text-slate-900">Hygex Cleaning</span>
+              <span className="text-xl font-bold text-slate-900">StayPro Cleaning</span>
             </Link>
 
             {/* Desktop Navigation */}

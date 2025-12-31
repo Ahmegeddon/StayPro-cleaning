@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from '@/utils';
-import { Sparkles, MapPin, Phone, Mail, MessageCircle } from 'lucide-react';
+import { Home, MapPin, Phone, Mail, MessageCircle } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -12,9 +12,9 @@ export default function Footer() {
           <div className="lg:col-span-1">
             <Link to={createPageUrl('Home')} className="flex items-center gap-2 mb-5">
               <div className="w-10 h-10 rounded-lg bg-teal-600 flex items-center justify-center">
-                <Sparkles className="w-6 h-6 text-white" />
+                <Home className="w-6 h-6 text-white" />
               </div>
-              <span className="text-xl font-bold">Hygex Cleaning</span>
+              <span className="text-xl font-bold">StayPro Cleaning</span>
             </Link>
             <p className="text-slate-400 leading-relaxed">
               Professional Airbnb and short-term rental cleaning services. 
@@ -79,8 +79,8 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-teal-500 flex-shrink-0" />
-                <a href="mailto:hello@sparklestay.ae" className="text-slate-400 hover:text-teal-400 transition-colors">
-                  hello@sparklestay.ae
+                <a href="mailto:hello@stayprocleaning.ae" className="text-slate-400 hover:text-teal-400 transition-colors">
+                  hello@stayprocleaning.ae
                 </a>
               </li>
               <li className="flex items-center gap-3">
@@ -101,7 +101,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-slate-800 flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-slate-500 text-sm">
-            © {new Date().getFullYear()} Hygex Cleaning. All rights reserved.
+            © {new Date().getFullYear()} StayPro Cleaning. All rights reserved.
           </p>
           <div className="flex gap-6">
             <a href="#" className="text-slate-500 hover:text-slate-400 text-sm">Privacy Policy</a>
