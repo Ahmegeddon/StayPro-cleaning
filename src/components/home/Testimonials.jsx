@@ -45,7 +45,7 @@ export default function Testimonials() {
             Testimonials
           </span>
           <h2 className="mt-3 text-3xl sm:text-4xl font-bold text-slate-900">
-            Trusted by Hosts Across the UAE
+            Trusted by Hosts Across Abu Dhabi
           </h2>
           <p className="mt-4 text-lg text-slate-600">
             Join hundreds of satisfied property owners and managers

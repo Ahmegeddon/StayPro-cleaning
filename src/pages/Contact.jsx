@@ -36,15 +36,15 @@ const serviceOptions = [
 ];
 
 const serviceAreas = [
-  'Dubai Marina',
-  'Downtown Dubai',
-  'Palm Jumeirah',
-  'Business Bay',
-  'JBR',
-  'DIFC',
-  'JLT',
-  'Arabian Ranches',
-  'Dubai Hills',
+  'Al Reem Island',
+  'Yas Island',
+  'Saadiyat Island',
+  'Al Raha Beach',
+  'Corniche',
+  'Al Maryah Island',
+  'Khalifa City',
+  'Al Reef',
+  'Masdar City',
   'Other',
 ];
 
@@ -166,7 +166,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="font-semibold text-slate-900">Service Area</p>
-                    <p className="text-slate-600">Dubai, UAE</p>
+                    <p className="text-slate-600">Abu Dhabi, UAE</p>
                   </div>
                 </div>
 
