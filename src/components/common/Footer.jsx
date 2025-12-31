@@ -86,7 +86,7 @@ export default function Footer() {
               <li className="flex items-center gap-3">
                 <MessageCircle className="w-5 h-5 text-teal-500 flex-shrink-0" />
                 <a 
-                  href="https://wa.me/971500000000" 
+                  href="https://wa.me/971508695064" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="text-slate-400 hover:text-teal-400 transition-colors"
