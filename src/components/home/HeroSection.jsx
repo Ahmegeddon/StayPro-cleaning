@@ -95,8 +95,8 @@ export default function HeroSection() {
 
             <div className="relative rounded-3xl overflow-hidden shadow-2xl">
               <img
-                src="https://images.unsplash.com/photo-1585421514738-01798e348b17?w=800&q=80"
-                alt="Professional cleaning supplies"
+                src="https://images.unsplash.com/photo-1628177142898-93e36e4e3a50?w=800&q=80"
+                alt="Clean and organized living space"
                 className="w-full h-[600px] object-cover" />
 
               <div className="absolute inset-0 bg-gradient-to-t from-slate-900/20 to-transparent" />
