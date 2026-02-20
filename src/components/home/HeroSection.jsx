@@ -24,6 +24,21 @@ export default function HeroSection() {
             transition={{ duration: 0.8, ease: "easeOut" }}
             className="text-center lg:text-left">
 
+            {/* Large Logo */}
+            <motion.div
+              initial={{ opacity: 0, scale: 0.9 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ delay: 0.1, duration: 0.5 }}
+              className="mb-8 flex justify-center lg:justify-start">
+              <div className="w-40 h-40 rounded-full overflow-hidden bg-white shadow-2xl">
+                <img 
+                  src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/69445f233d75f11624962bb9/90d488d30_StayProLogo.png" 
+                  alt="StayPro Cleaning"
+                  className="w-full h-full object-contain p-6"
+                />
+              </div>
+            </motion.div>
+
             {/* Badge */}
             <motion.div
               initial={{ opacity: 0, scale: 0.9 }}
