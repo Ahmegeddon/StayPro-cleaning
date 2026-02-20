@@ -4,7 +4,6 @@ import ServicesOverview from '@/components/home/ServicesOverview';
 import WhyChooseUs from '@/components/home/WhyChooseUs';
 import HowItWorks from '@/components/home/HowItWorks';
 import FullTimeStaff from '@/components/home/FullTimeStaff';
-import Testimonials from '@/components/home/Testimonials';
 import CTASection from '@/components/home/CTASection';
 
 export default function Home() {
@@ -15,7 +14,6 @@ export default function Home() {
       <WhyChooseUs />
       <HowItWorks />
       <FullTimeStaff />
-      <Testimonials />
       <CTASection />
     </div>
   );
