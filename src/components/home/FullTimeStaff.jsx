@@ -7,6 +7,7 @@ import { Users, Clock, Calendar, CheckCircle2, ChevronRight } from 'lucide-react
 
 const staffBenefits = [
   'Professional, trained cleaning staff',
+  'Available for homes and offices',
   'Flexible scheduling options',
   'Consistent quality standards',
   'Background-checked personnel',
@@ -52,8 +53,8 @@ export default function FullTimeStaff() {
             Dedicated Full-Time Cleaning Staff
           </h2>
           <p className="text-lg text-slate-600">
-            Need consistent daily cleaning? We provide professional full-time cleaning staff 
-            tailored to your schedule and property needs.
+            We supply professional full-time cleaning staff for residential homes, offices, 
+            and commercial properties. Tailored to your schedule and requirements.
           </p>
         </motion.div>
 
@@ -90,7 +91,7 @@ export default function FullTimeStaff() {
           <h3 className="text-2xl font-bold text-slate-900 mb-8 text-center">
             What's Included
           </h3>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div className="grid sm:grid-cols-2 gap-4">
             {staffBenefits.map((benefit, index) => (
               <motion.div
                 key={index}
