@@ -91,6 +91,17 @@ export default function Contact() {
             transition={{ duration: 0.6 }}
             className="text-center max-w-3xl mx-auto"
           >
+            {/* Large Logo */}
+            <div className="mb-8 flex justify-center">
+              <div className="w-32 h-32 rounded-full overflow-hidden bg-white shadow-2xl">
+                <img 
+                  src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/69445f233d75f11624962bb9/90d488d30_StayProLogo.png" 
+                  alt="StayPro Cleaning"
+                  className="w-full h-full object-contain p-4"
+                />
+              </div>
+            </div>
+            
             <h1 className="text-4xl sm:text-5xl font-bold text-white leading-tight">
               Get a Free Quote
             </h1>
