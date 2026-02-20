@@ -7,6 +7,7 @@ import {
   Truck, 
   Building, 
   Hammer,
+  Users,
   ArrowRight,
   Building as BuildingIcon
 } from 'lucide-react';
@@ -27,6 +28,13 @@ const services = [
     description: 'Hands-free Airbnb management. We handle everything — bookings, guests, cleaning, listings — you just collect profits.',
     highlight: true,
     link: 'AirbnbManagement',
+  },
+  {
+    icon: Users,
+    title: 'Full-Time Cleaning Staff',
+    description: 'Dedicated professional cleaners for your home or office with flexible scheduling.',
+    highlight: false,
+    link: 'OtherServices',
   },
   {
     icon: Sparkles,

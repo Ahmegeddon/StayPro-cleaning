@@ -10,11 +10,26 @@ import {
   Building,
   Hammer,
   Home,
+  Users,
   ArrowRight,
   CheckCircle2
 } from 'lucide-react';
 
 const services = [
+  {
+    icon: Users,
+    title: 'Full-Time Cleaning Staff',
+    description: 'We supply dedicated professional cleaning staff for your home, office, or commercial property. Custom rates based on hours per day and days per week.',
+    features: [
+      'Available for homes and offices',
+      'Flexible hours: 4, 6, or 8 hours per day',
+      'Choose 3 to 7 days per week coverage',
+      'Background-checked and trained staff',
+      'All supplies and equipment included',
+      'Fully insured and supervised',
+    ],
+    image: 'https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?w=600&q=80',
+  },
   {
     icon: Building2,
     title: 'Residential Cleaning',
