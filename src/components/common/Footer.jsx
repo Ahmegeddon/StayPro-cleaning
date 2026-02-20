@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from '@/utils';
-import { Home, MapPin, Phone, Mail, MessageCircle } from 'lucide-react';
+import { Sparkles, MapPin, Phone, Mail, MessageCircle } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -12,7 +12,7 @@ export default function Footer() {
           <div className="lg:col-span-1">
             <Link to={createPageUrl('Home')} className="flex items-center gap-2 mb-5">
               <div className="w-10 h-10 rounded-lg bg-cyan-600 flex items-center justify-center">
-                <Home className="w-6 h-6 text-white" />
+                <Sparkles className="w-6 h-6 text-white" />
               </div>
               <span className="text-xl font-bold">StayPro Cleaning</span>
             </Link>
