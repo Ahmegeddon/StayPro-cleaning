@@ -36,8 +36,12 @@ export default function Layout({ children, currentPageName }) {
           <div className="flex items-center justify-between h-16 lg:h-20">
             {/* Logo */}
             <Link to={createPageUrl('Home')} className="flex items-center gap-2">
-              <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-cyan-500 to-cyan-600 flex items-center justify-center">
-                <Sparkles className="w-6 h-6 text-white" />
+              <div className="w-10 h-10 rounded-full overflow-hidden flex items-center justify-center bg-white">
+                <img 
+                  src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/69445f233d75f11624962bb9/90d488d30_StayProLogo.png" 
+                  alt="StayPro Cleaning"
+                  className="w-full h-full object-contain"
+                />
               </div>
               <span className="text-xl font-bold text-slate-900">StayPro Cleaning</span>
             </Link>
