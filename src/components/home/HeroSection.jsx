@@ -34,7 +34,7 @@ export default function HeroSection() {
                 <img 
                   src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/69445f233d75f11624962bb9/90d488d30_StayProLogo.png" 
                   alt="StayPro Cleaning"
-                  className="w-full h-full object-cover scale-150"
+                  className="w-full h-full object-cover scale-125"
                 />
               </div>
             </motion.div>
