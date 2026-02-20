@@ -35,8 +35,8 @@ export default function Layout({ children, currentPageName }) {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16 lg:h-20">
             {/* Logo */}
-            <Link to={createPageUrl('Home')} className="flex items-center gap-2">
-              <div className="w-10 h-10 rounded-full overflow-hidden flex items-center justify-center bg-white">
+            <Link to={createPageUrl('Home')} className="flex items-center gap-3">
+              <div className="w-14 h-14 rounded-full overflow-hidden flex items-center justify-center bg-white shadow-sm">
                 <img 
                   src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/69445f233d75f11624962bb9/90d488d30_StayProLogo.png" 
                   alt="StayPro Cleaning"
