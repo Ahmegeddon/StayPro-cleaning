@@ -77,7 +77,7 @@ export default function Contact() {
   return (
     <div>
       {/* Hero Section */}
-      <section className="py-20 lg:py-28 bg-gradient-to-br from-teal-600 to-teal-700 relative overflow-hidden">
+      <section className="py-20 lg:py-28 bg-gradient-to-br from-cyan-600 to-cyan-700 relative overflow-hidden">
         <div className="absolute inset-0 opacity-10">
           <div className="absolute inset-0" style={{
             backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
@@ -94,7 +94,7 @@ export default function Contact() {
             <h1 className="text-4xl sm:text-5xl font-bold text-white leading-tight">
               Get a Free Quote
             </h1>
-            <p className="mt-6 text-xl text-teal-100 leading-relaxed">
+            <p className="mt-6 text-xl text-cyan-100 leading-relaxed">
               Tell us about your property and cleaning needs. We'll get back to you 
               within a few hours with a customized quote.
             </p>
@@ -121,10 +121,10 @@ export default function Contact() {
               <div className="space-y-6">
                 <a 
                   href="tel:+971508695064" 
-                  className="flex items-start gap-4 p-4 rounded-xl bg-slate-50 hover:bg-teal-50 transition-colors group"
+                  className="flex items-start gap-4 p-4 rounded-xl bg-slate-50 hover:bg-cyan-50 transition-colors group"
                 >
-                  <div className="w-12 h-12 rounded-lg bg-teal-100 flex items-center justify-center flex-shrink-0 group-hover:bg-teal-200 transition-colors">
-                    <Phone className="w-6 h-6 text-teal-600" />
+                  <div className="w-12 h-12 rounded-lg bg-cyan-100 flex items-center justify-center flex-shrink-0 group-hover:bg-cyan-200 transition-colors">
+                    <Phone className="w-6 h-6 text-cyan-600" />
                   </div>
                   <div>
                     <p className="font-semibold text-slate-900">Phone</p>
@@ -149,10 +149,10 @@ export default function Contact() {
 
                 <a 
                   href="mailto:hello@stayprocleaning.ae" 
-                  className="flex items-start gap-4 p-4 rounded-xl bg-slate-50 hover:bg-teal-50 transition-colors group"
+                  className="flex items-start gap-4 p-4 rounded-xl bg-slate-50 hover:bg-cyan-50 transition-colors group"
                 >
-                  <div className="w-12 h-12 rounded-lg bg-teal-100 flex items-center justify-center flex-shrink-0 group-hover:bg-teal-200 transition-colors">
-                    <Mail className="w-6 h-6 text-teal-600" />
+                  <div className="w-12 h-12 rounded-lg bg-cyan-100 flex items-center justify-center flex-shrink-0 group-hover:bg-cyan-200 transition-colors">
+                    <Mail className="w-6 h-6 text-cyan-600" />
                   </div>
                   <div>
                     <p className="font-semibold text-slate-900">Email</p>
@@ -161,8 +161,8 @@ export default function Contact() {
                 </a>
 
                 <div className="flex items-start gap-4 p-4 rounded-xl bg-slate-50">
-                  <div className="w-12 h-12 rounded-lg bg-teal-100 flex items-center justify-center flex-shrink-0">
-                    <MapPin className="w-6 h-6 text-teal-600" />
+                  <div className="w-12 h-12 rounded-lg bg-cyan-100 flex items-center justify-center flex-shrink-0">
+                    <MapPin className="w-6 h-6 text-cyan-600" />
                   </div>
                   <div>
                     <p className="font-semibold text-slate-900">Service Area</p>
@@ -171,8 +171,8 @@ export default function Contact() {
                 </div>
 
                 <div className="flex items-start gap-4 p-4 rounded-xl bg-slate-50">
-                  <div className="w-12 h-12 rounded-lg bg-teal-100 flex items-center justify-center flex-shrink-0">
-                    <Clock className="w-6 h-6 text-teal-600" />
+                  <div className="w-12 h-12 rounded-lg bg-cyan-100 flex items-center justify-center flex-shrink-0">
+                    <Clock className="w-6 h-6 text-cyan-600" />
                   </div>
                   <div>
                     <p className="font-semibold text-slate-900">Response Time</p>
@@ -322,7 +322,7 @@ export default function Contact() {
                   <Button 
                     type="submit" 
                     size="lg" 
-                    className="w-full mt-8 bg-teal-600 hover:bg-teal-700 text-white py-6 text-lg rounded-xl"
+                    className="w-full mt-8 bg-cyan-600 hover:bg-cyan-700 text-white py-6 text-lg rounded-xl"
                     disabled={isLoading}
                   >
                     {isLoading ? (

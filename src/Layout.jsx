@@ -23,7 +23,7 @@ export default function Layout({ children, currentPageName }) {
       <div className="bg-slate-900 text-white py-2 hidden sm:block">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center text-sm">
           <span className="text-slate-400">Professional Airbnb Cleaning in Abu Dhabi</span>
-          <a href="tel:+971508695064" className="flex items-center gap-2 hover:text-teal-400 transition-colors">
+          <a href="tel:+971508695064" className="flex items-center gap-2 hover:text-cyan-400 transition-colors">
             <Phone className="w-4 h-4" />
             +971 50 869 5064
           </a>
@@ -36,7 +36,7 @@ export default function Layout({ children, currentPageName }) {
           <div className="flex items-center justify-between h-16 lg:h-20">
             {/* Logo */}
             <Link to={createPageUrl('Home')} className="flex items-center gap-2">
-              <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-teal-500 to-teal-600 flex items-center justify-center">
+              <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-cyan-500 to-cyan-600 flex items-center justify-center">
                 <Home className="w-6 h-6 text-white" />
               </div>
               <span className="text-xl font-bold text-slate-900">StayPro Cleaning</span>
@@ -51,8 +51,8 @@ export default function Layout({ children, currentPageName }) {
                   className={`
                     font-medium transition-colors relative py-2
                     ${currentPageName === link.page 
-                      ? 'text-teal-600' 
-                      : 'text-slate-700 hover:text-teal-600'
+                      ? 'text-cyan-600' 
+                      : 'text-slate-700 hover:text-cyan-600'
                     }
                   `}
                 >
@@ -60,7 +60,7 @@ export default function Layout({ children, currentPageName }) {
                   {currentPageName === link.page && (
                     <motion.div
                       layoutId="activeNav"
-                      className="absolute -bottom-0.5 left-0 right-0 h-0.5 bg-teal-600 rounded-full"
+                      className="absolute -bottom-0.5 left-0 right-0 h-0.5 bg-cyan-600 rounded-full"
                     />
                   )}
                 </Link>
@@ -70,7 +70,7 @@ export default function Layout({ children, currentPageName }) {
             {/* CTA Button */}
             <div className="hidden lg:flex items-center gap-4">
               <Link to={createPageUrl('Contact')}>
-                <Button className="bg-teal-600 hover:bg-teal-700 text-white rounded-lg px-6">
+                <Button className="bg-cyan-600 hover:bg-cyan-700 text-white rounded-lg px-6">
                   Get a Quote
                 </Button>
               </Link>
@@ -109,7 +109,7 @@ export default function Layout({ children, currentPageName }) {
                     className={`
                       block py-3 px-4 rounded-lg font-medium transition-colors
                       ${currentPageName === link.page 
-                        ? 'bg-teal-50 text-teal-600' 
+                        ? 'bg-cyan-50 text-cyan-600' 
                         : 'text-slate-700 hover:bg-slate-50'
                       }
                     `}
@@ -121,7 +121,7 @@ export default function Layout({ children, currentPageName }) {
                   to={createPageUrl('Contact')}
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
-                  <Button className="w-full mt-4 bg-teal-600 hover:bg-teal-700 text-white rounded-lg">
+                  <Button className="w-full mt-4 bg-cyan-600 hover:bg-cyan-700 text-white rounded-lg">
                     Get a Quote
                   </Button>
                 </Link>

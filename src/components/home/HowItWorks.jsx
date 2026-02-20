@@ -38,7 +38,7 @@ export default function HowItWorks() {
           transition={{ duration: 0.6 }}
           className="text-center max-w-2xl mx-auto mb-16"
         >
-          <span className="text-teal-600 font-semibold text-sm uppercase tracking-wider">
+          <span className="text-cyan-600 font-semibold text-sm uppercase tracking-wider">
             How It Works
           </span>
           <h2 className="mt-3 text-3xl sm:text-4xl font-bold text-slate-900">
@@ -52,7 +52,7 @@ export default function HowItWorks() {
         {/* Steps */}
         <div className="relative">
           {/* Connection Line - Desktop */}
-          <div className="hidden lg:block absolute top-24 left-1/2 -translate-x-1/2 w-2/3 h-0.5 bg-gradient-to-r from-teal-100 via-teal-200 to-teal-100" />
+          <div className="hidden lg:block absolute top-24 left-1/2 -translate-x-1/2 w-2/3 h-0.5 bg-gradient-to-r from-cyan-100 via-cyan-200 to-cyan-100" />
 
           <div className="grid md:grid-cols-3 gap-8 lg:gap-12">
             {steps.map((step, index) => (
@@ -66,13 +66,13 @@ export default function HowItWorks() {
               >
                 <div className="bg-white rounded-2xl p-8 text-center relative z-10">
                   {/* Number Badge */}
-                  <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-teal-600 text-white text-sm font-bold px-4 py-1 rounded-full">
+                  <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-cyan-600 text-white text-sm font-bold px-4 py-1 rounded-full">
                     Step {step.number}
                   </div>
 
                   {/* Icon */}
-                  <div className="w-20 h-20 rounded-2xl bg-gradient-to-br from-teal-50 to-teal-100 flex items-center justify-center mx-auto mt-4 mb-6">
-                    <step.icon className="w-10 h-10 text-teal-600" />
+                  <div className="w-20 h-20 rounded-2xl bg-gradient-to-br from-cyan-50 to-cyan-100 flex items-center justify-center mx-auto mt-4 mb-6">
+                    <step.icon className="w-10 h-10 text-cyan-600" />
                   </div>
 
                   <h3 className="text-xl font-semibold text-slate-900 mb-3">
@@ -87,7 +87,7 @@ export default function HowItWorks() {
                 {/* Arrow - Desktop */}
                 {index < steps.length - 1 && (
                   <div className="hidden lg:block absolute top-24 -right-6 z-20">
-                    <ArrowRight className="w-8 h-8 text-teal-300" />
+                    <ArrowRight className="w-8 h-8 text-cyan-300" />
                   </div>
                 )}
               </motion.div>
@@ -104,7 +104,7 @@ export default function HowItWorks() {
           className="text-center mt-16"
         >
           <Link to={createPageUrl('Contact')}>
-            <Button size="lg" className="bg-teal-600 hover:bg-teal-700 text-white px-8 py-6 text-lg rounded-xl shadow-lg shadow-teal-600/20">
+            <Button size="lg" className="bg-cyan-600 hover:bg-cyan-700 text-white px-8 py-6 text-lg rounded-xl shadow-lg shadow-cyan-600/20">
               Get Started Today
               <ArrowRight className="ml-2 w-5 h-5" />
             </Button>

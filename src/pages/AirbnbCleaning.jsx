@@ -67,7 +67,7 @@ export default function AirbnbCleaning() {
   return (
     <div>
       {/* Hero Section */}
-      <section className="relative py-20 lg:py-32 bg-gradient-to-br from-teal-600 to-teal-700 overflow-hidden">
+      <section className="relative py-20 lg:py-32 bg-gradient-to-br from-cyan-600 to-cyan-700 overflow-hidden">
         <div className="absolute inset-0 opacity-10">
           <div className="absolute inset-0" style={{
             backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
@@ -90,14 +90,14 @@ export default function AirbnbCleaning() {
                 Airbnb & Short-Term Rental Cleaning
               </h1>
 
-              <p className="mt-6 text-xl text-teal-100 leading-relaxed">
+              <p className="mt-6 text-xl text-cyan-100 leading-relaxed">
                 Full turnover cleaning designed specifically for vacation rentals and short-term 
                 properties. Keep your guests happy and your reviews stellar.
               </p>
 
               <div className="mt-8 flex flex-col sm:flex-row gap-4">
                 <Link to={createPageUrl('Contact')}>
-                  <Button size="lg" className="bg-white text-teal-700 hover:bg-teal-50 px-8 py-6 text-lg rounded-xl w-full sm:w-auto">
+                  <Button size="lg" className="bg-white text-cyan-700 hover:bg-cyan-50 px-8 py-6 text-lg rounded-xl w-full sm:w-auto">
                     Get a Free Quote
                     <ArrowRight className="ml-2 w-5 h-5" />
                   </Button>
@@ -118,7 +118,7 @@ export default function AirbnbCleaning() {
             transition={{ duration: 0.6 }}
             className="text-center max-w-2xl mx-auto mb-16"
           >
-            <span className="text-teal-600 font-semibold text-sm uppercase tracking-wider">
+            <span className="text-cyan-600 font-semibold text-sm uppercase tracking-wider">
               What's Included
             </span>
             <h2 className="mt-3 text-3xl sm:text-4xl font-bold text-slate-900">
@@ -139,8 +139,8 @@ export default function AirbnbCleaning() {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 className="bg-slate-50 rounded-2xl p-8 hover:bg-white hover:shadow-lg transition-all border border-slate-100"
               >
-                <div className="w-14 h-14 rounded-xl bg-teal-100 flex items-center justify-center mb-5">
-                  <feature.icon className="w-7 h-7 text-teal-600" />
+                <div className="w-14 h-14 rounded-xl bg-cyan-100 flex items-center justify-center mb-5">
+                  <feature.icon className="w-7 h-7 text-cyan-600" />
                 </div>
                 <h3 className="text-xl font-semibold text-slate-900 mb-3">
                   {feature.title}
@@ -164,7 +164,7 @@ export default function AirbnbCleaning() {
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
             >
-              <span className="text-teal-600 font-semibold text-sm uppercase tracking-wider">
+              <span className="text-cyan-600 font-semibold text-sm uppercase tracking-wider">
                 Why Choose Our Airbnb Cleaning
               </span>
               <h2 className="mt-3 text-3xl sm:text-4xl font-bold text-slate-900 leading-tight">
@@ -186,7 +186,7 @@ export default function AirbnbCleaning() {
                     transition={{ duration: 0.4, delay: index * 0.05 }}
                     className="flex items-center gap-3"
                   >
-                    <CheckCircle2 className="w-5 h-5 text-teal-600 flex-shrink-0" />
+                    <CheckCircle2 className="w-5 h-5 text-cyan-600 flex-shrink-0" />
                     <span className="text-slate-700">{benefit}</span>
                   </motion.div>
                 ))}
@@ -211,8 +211,8 @@ export default function AirbnbCleaning() {
               {/* Stats Card */}
               <div className="absolute -bottom-8 -left-8 bg-white rounded-xl shadow-xl p-6">
                 <div className="flex items-center gap-4">
-                  <div className="w-14 h-14 rounded-full bg-teal-100 flex items-center justify-center">
-                    <Award className="w-7 h-7 text-teal-600" />
+                  <div className="w-14 h-14 rounded-full bg-cyan-100 flex items-center justify-center">
+                    <Award className="w-7 h-7 text-cyan-600" />
                   </div>
                   <div>
                     <p className="text-3xl font-bold text-slate-900">98%</p>
@@ -238,8 +238,8 @@ export default function AirbnbCleaning() {
             <div className="relative z-10 grid lg:grid-cols-2 gap-12 items-center">
               <div>
                 <div className="flex items-center gap-3 mb-6">
-                  <CalendarClock className="w-8 h-8 text-teal-400" />
-                  <span className="text-teal-400 font-semibold uppercase tracking-wider text-sm">
+                  <CalendarClock className="w-8 h-8 text-cyan-400" />
+                  <span className="text-cyan-400 font-semibold uppercase tracking-wider text-sm">
                     Flexible Scheduling
                   </span>
                 </div>
@@ -253,12 +253,12 @@ export default function AirbnbCleaning() {
 
                 <div className="mt-8 grid grid-cols-2 gap-6">
                   <div className="bg-white/10 rounded-xl p-5">
-                    <Clock className="w-8 h-8 text-teal-400 mb-3" />
+                    <Clock className="w-8 h-8 text-cyan-400 mb-3" />
                     <p className="text-2xl font-bold text-white">2-4 hrs</p>
                     <p className="text-slate-400">Average turnaround</p>
                   </div>
                   <div className="bg-white/10 rounded-xl p-5">
-                    <Shield className="w-8 h-8 text-teal-400 mb-3" />
+                    <Shield className="w-8 h-8 text-cyan-400 mb-3" />
                     <p className="text-2xl font-bold text-white">100%</p>
                     <p className="text-slate-400">Reliability rate</p>
                   </div>
@@ -267,7 +267,7 @@ export default function AirbnbCleaning() {
 
               <div className="text-center lg:text-right">
                 <Link to={createPageUrl('Contact')}>
-                  <Button size="lg" className="bg-teal-600 hover:bg-teal-700 text-white px-10 py-6 text-lg rounded-xl shadow-lg">
+                  <Button size="lg" className="bg-cyan-600 hover:bg-cyan-700 text-white px-10 py-6 text-lg rounded-xl shadow-lg">
                     Book Your Turnover Cleaning
                     <ArrowRight className="ml-2 w-5 h-5" />
                   </Button>

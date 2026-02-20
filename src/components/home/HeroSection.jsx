@@ -7,7 +7,7 @@ import { createPageUrl } from '@/utils';
 
 export default function HeroSection() {
   return (
-    <section className="relative min-h-[90vh] flex items-center overflow-hidden bg-gradient-to-br from-white via-slate-50 to-teal-50/30">
+    <section className="relative min-h-[90vh] flex items-center overflow-hidden bg-gradient-to-br from-white via-slate-50 to-cyan-50/30">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-[0.03]">
         <div className="absolute inset-0" style={{
@@ -29,9 +29,9 @@ export default function HeroSection() {
               initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 0.2, duration: 0.5 }}
-              className="inline-flex items-center gap-2 bg-teal-50 border border-teal-100 rounded-full px-4 py-2 mb-6">
+              className="inline-flex items-center gap-2 bg-cyan-50 border border-cyan-100 rounded-full px-4 py-2 mb-6">
 
-              <span className="flex items-center gap-1 text-teal-700 text-sm font-medium">Trusted by Airbnb Hosts
+              <span className="flex items-center gap-1 text-cyan-700 text-sm font-medium">Trusted by Airbnb Hosts
 
 
               </span>
@@ -40,7 +40,7 @@ export default function HeroSection() {
             {/* Headline */}
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-slate-900 leading-tight tracking-tight">
               Professional Airbnb Cleaning{' '}
-              <span className="text-teal-600">You Can Trust</span>
+              <span className="text-cyan-600">You Can Trust</span>
             </h1>
 
             <p className="mt-6 text-lg sm:text-xl text-slate-600 leading-relaxed max-w-xl mx-auto lg:mx-0">
@@ -51,13 +51,13 @@ export default function HeroSection() {
             {/* CTA Buttons */}
             <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <Link to={createPageUrl('Contact')}>
-                <Button size="lg" className="bg-teal-600 hover:bg-teal-700 text-white px-8 py-6 text-lg rounded-xl shadow-lg shadow-teal-600/20 transition-all hover:shadow-xl hover:shadow-teal-600/30 w-full sm:w-auto">
+                <Button size="lg" className="bg-cyan-600 hover:bg-cyan-700 text-white px-8 py-6 text-lg rounded-xl shadow-lg shadow-cyan-600/20 transition-all hover:shadow-xl hover:shadow-cyan-600/30 w-full sm:w-auto">
                   Get a Free Quote
                   <ChevronRight className="ml-2 w-5 h-5" />
                 </Button>
               </Link>
               <Link to={createPageUrl('Contact')}>
-                <Button size="lg" variant="outline" className="border-2 border-slate-200 hover:border-teal-200 hover:bg-teal-50 px-8 py-6 text-lg rounded-xl w-full sm:w-auto">
+                <Button size="lg" variant="outline" className="border-2 border-slate-200 hover:border-cyan-200 hover:bg-cyan-50 px-8 py-6 text-lg rounded-xl w-full sm:w-auto">
                   Book a Cleaning
                 </Button>
               </Link>
@@ -77,8 +77,8 @@ export default function HeroSection() {
                 transition={{ delay: 0.4 + index * 0.1, duration: 0.5 }}
                 className="flex flex-col items-center lg:items-start gap-2">
 
-                  <div className="w-10 h-10 rounded-lg bg-teal-50 flex items-center justify-center">
-                    <item.icon className="w-5 h-5 text-teal-600" />
+                  <div className="w-10 h-10 rounded-lg bg-cyan-50 flex items-center justify-center">
+                    <item.icon className="w-5 h-5 text-cyan-600" />
                   </div>
                   <span className="text-sm font-medium text-slate-700">{item.label}</span>
                 </motion.div>
@@ -110,8 +110,8 @@ export default function HeroSection() {
               className="absolute -left-8 bottom-12 bg-white rounded-2xl shadow-xl p-5 max-w-[240px]">
 
               <div className="flex items-center gap-3 mb-3">
-                <div className="w-12 h-12 rounded-full bg-teal-100 flex items-center justify-center">
-                  <Star className="w-6 h-6 text-teal-600 fill-teal-600" />
+                <div className="w-12 h-12 rounded-full bg-cyan-100 flex items-center justify-center">
+                  <Star className="w-6 h-6 text-cyan-600 fill-cyan-600" />
                 </div>
                 <div>
                   <p className="font-semibold text-slate-900">5-Star Ready</p>

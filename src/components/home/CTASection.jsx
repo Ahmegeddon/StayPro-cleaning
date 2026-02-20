@@ -7,7 +7,7 @@ import { createPageUrl } from '@/utils';
 
 export default function CTASection() {
   return (
-    <section className="py-24 bg-gradient-to-br from-teal-600 to-teal-700 relative overflow-hidden">
+    <section className="py-24 bg-gradient-to-br from-cyan-600 to-cyan-700 relative overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute inset-0" style={{
@@ -26,14 +26,14 @@ export default function CTASection() {
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight">
             Ready for Spotless Turnovers?
           </h2>
-          <p className="mt-6 text-xl text-teal-100 leading-relaxed">
+          <p className="mt-6 text-xl text-cyan-100 leading-relaxed">
             Join hundreds of Airbnb hosts who trust us to keep their properties 
             guest-ready and review-worthy.
           </p>
 
           <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
             <Link to={createPageUrl('Contact')}>
-              <Button size="lg" className="bg-white text-teal-700 hover:bg-teal-50 px-8 py-6 text-lg rounded-xl shadow-lg w-full sm:w-auto">
+              <Button size="lg" className="bg-white text-cyan-700 hover:bg-cyan-50 px-8 py-6 text-lg rounded-xl shadow-lg w-full sm:w-auto">
                 Get Your Free Quote
                 <ArrowRight className="ml-2 w-5 h-5" />
               </Button>
@@ -46,7 +46,7 @@ export default function CTASection() {
             </a>
           </div>
 
-          <div className="mt-8 flex items-center justify-center gap-2 text-teal-100">
+          <div className="mt-8 flex items-center justify-center gap-2 text-cyan-100">
             <Phone className="w-5 h-5" />
             <span className="text-lg">Or call us: +971 50 869 5064</span>
           </div>

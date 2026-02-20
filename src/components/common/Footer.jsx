@@ -11,7 +11,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <Link to={createPageUrl('Home')} className="flex items-center gap-2 mb-5">
-              <div className="w-10 h-10 rounded-lg bg-teal-600 flex items-center justify-center">
+              <div className="w-10 h-10 rounded-lg bg-cyan-600 flex items-center justify-center">
                 <Home className="w-6 h-6 text-white" />
               </div>
               <span className="text-xl font-bold">StayPro Cleaning</span>
@@ -36,7 +36,7 @@ export default function Footer() {
                 <li key={link.page}>
                   <Link 
                     to={createPageUrl(link.page)} 
-                    className="text-slate-400 hover:text-teal-400 transition-colors"
+                    className="text-slate-400 hover:text-cyan-400 transition-colors"
                   >
                     {link.name}
                   </Link>
@@ -68,28 +68,28 @@ export default function Footer() {
             <h4 className="text-lg font-semibold mb-5">Contact Us</h4>
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
-                <MapPin className="w-5 h-5 text-teal-500 mt-0.5 flex-shrink-0" />
+                <MapPin className="w-5 h-5 text-cyan-500 mt-0.5 flex-shrink-0" />
                 <span className="text-slate-400">Abu Dhabi, United Arab Emirates</span>
               </li>
               <li className="flex items-center gap-3">
-                <Phone className="w-5 h-5 text-teal-500 flex-shrink-0" />
-                <a href="tel:+971508695064" className="text-slate-400 hover:text-teal-400 transition-colors">
+                <Phone className="w-5 h-5 text-cyan-500 flex-shrink-0" />
+                <a href="tel:+971508695064" className="text-slate-400 hover:text-cyan-400 transition-colors">
                   +971 50 869 5064
                 </a>
               </li>
               <li className="flex items-center gap-3">
-                <Mail className="w-5 h-5 text-teal-500 flex-shrink-0" />
-                <a href="mailto:hello@stayprocleaning.ae" className="text-slate-400 hover:text-teal-400 transition-colors">
+                <Mail className="w-5 h-5 text-cyan-500 flex-shrink-0" />
+                <a href="mailto:hello@stayprocleaning.ae" className="text-slate-400 hover:text-cyan-400 transition-colors">
                   hello@stayprocleaning.ae
                 </a>
               </li>
               <li className="flex items-center gap-3">
-                <MessageCircle className="w-5 h-5 text-teal-500 flex-shrink-0" />
+                <MessageCircle className="w-5 h-5 text-cyan-500 flex-shrink-0" />
                 <a 
                   href="https://wa.me/971508695064" 
                   target="_blank" 
                   rel="noopener noreferrer" 
-                  className="text-slate-400 hover:text-teal-400 transition-colors"
+                  className="text-slate-400 hover:text-cyan-400 transition-colors"
                 >
                   WhatsApp
                 </a>

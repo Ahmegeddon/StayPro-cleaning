@@ -106,7 +106,7 @@ export default function AirbnbManagement() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
             >
-              <span className="inline-flex items-center gap-2 bg-teal-500/20 text-teal-400 rounded-full px-4 py-2 text-sm font-medium mb-6">
+              <span className="inline-flex items-center gap-2 bg-cyan-500/20 text-cyan-400 rounded-full px-4 py-2 text-sm font-medium mb-6">
                 <Award className="w-4 h-4" />
                 Premium Service
               </span>
@@ -122,7 +122,7 @@ export default function AirbnbManagement() {
 
               <div className="mt-8 flex flex-col sm:flex-row gap-4">
                 <Link to={createPageUrl('Contact')}>
-                  <Button size="lg" className="bg-teal-600 hover:bg-teal-700 text-white px-8 py-6 text-lg rounded-xl w-full sm:w-auto shadow-lg shadow-teal-600/30">
+                  <Button size="lg" className="bg-cyan-600 hover:bg-cyan-700 text-white px-8 py-6 text-lg rounded-xl w-full sm:w-auto shadow-lg shadow-cyan-600/30">
                     Schedule a Consultation
                     <ArrowRight className="ml-2 w-5 h-5" />
                   </Button>
@@ -143,7 +143,7 @@ export default function AirbnbManagement() {
                     transition={{ delay: 0.4 + index * 0.1, duration: 0.5 }}
                     className="text-center"
                   >
-                    <p className="text-3xl font-bold text-teal-400">{stat.value}</p>
+                    <p className="text-3xl font-bold text-cyan-400">{stat.value}</p>
                     <p className="text-sm text-slate-400 mt-1">{stat.label}</p>
                   </motion.div>
                 ))}
@@ -199,7 +199,7 @@ export default function AirbnbManagement() {
             transition={{ duration: 0.6 }}
             className="text-center max-w-2xl mx-auto mb-16"
           >
-            <span className="text-teal-600 font-semibold text-sm uppercase tracking-wider">
+            <span className="text-cyan-600 font-semibold text-sm uppercase tracking-wider">
               Complete Management
             </span>
             <h2 className="mt-3 text-3xl sm:text-4xl font-bold text-slate-900">
@@ -220,8 +220,8 @@ export default function AirbnbManagement() {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 className="bg-slate-50 rounded-2xl p-6 hover:bg-white hover:shadow-lg transition-all border border-slate-100"
               >
-                <div className="w-12 h-12 rounded-xl bg-teal-100 flex items-center justify-center mb-4">
-                  <service.icon className="w-6 h-6 text-teal-600" />
+                <div className="w-12 h-12 rounded-xl bg-cyan-100 flex items-center justify-center mb-4">
+                  <service.icon className="w-6 h-6 text-cyan-600" />
                 </div>
                 <h3 className="text-lg font-semibold text-slate-900 mb-2">
                   {service.title}
@@ -236,7 +236,7 @@ export default function AirbnbManagement() {
       </section>
 
       {/* Benefits */}
-      <section className="py-24 bg-gradient-to-br from-teal-600 to-teal-700">
+      <section className="py-24 bg-gradient-to-br from-cyan-600 to-cyan-700">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <motion.div
@@ -245,13 +245,13 @@ export default function AirbnbManagement() {
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
             >
-              <span className="text-teal-200 font-semibold text-sm uppercase tracking-wider">
+              <span className="text-cyan-200 font-semibold text-sm uppercase tracking-wider">
                 Why Choose Full Management
               </span>
               <h2 className="mt-3 text-3xl sm:text-4xl font-bold text-white leading-tight">
                 Passive Income Made Simple
               </h2>
-              <p className="mt-5 text-lg text-teal-100 leading-relaxed">
+              <p className="mt-5 text-lg text-cyan-100 leading-relaxed">
                 Stop spending hours managing your rental. Our full-service management means you 
                 truly own an investment property — not a second job. We optimize every aspect 
                 while you enjoy the returns.
@@ -267,7 +267,7 @@ export default function AirbnbManagement() {
                     transition={{ duration: 0.4, delay: index * 0.05 }}
                     className="flex items-center gap-3"
                   >
-                    <CheckCircle2 className="w-5 h-5 text-teal-300 flex-shrink-0" />
+                    <CheckCircle2 className="w-5 h-5 text-cyan-300 flex-shrink-0" />
                     <span className="text-white">{benefit}</span>
                   </motion.div>
                 ))}
@@ -282,33 +282,33 @@ export default function AirbnbManagement() {
             >
               <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
                 <div className="flex items-center gap-3 mb-6">
-                  <DollarSign className="w-8 h-8 text-teal-300" />
+                  <DollarSign className="w-8 h-8 text-cyan-300" />
                   <h3 className="text-2xl font-bold text-white">Typical Results</h3>
                 </div>
 
                 <div className="space-y-6">
                   <div className="bg-white/5 rounded-xl p-5">
                     <div className="flex justify-between items-start mb-2">
-                      <span className="text-teal-200 text-sm font-medium">Revenue Increase</span>
+                      <span className="text-cyan-200 text-sm font-medium">Revenue Increase</span>
                       <span className="text-2xl font-bold text-white">30-40%</span>
                     </div>
-                    <p className="text-teal-100 text-sm">Through optimized pricing and occupancy</p>
+                    <p className="text-cyan-100 text-sm">Through optimized pricing and occupancy</p>
                   </div>
 
                   <div className="bg-white/5 rounded-xl p-5">
                     <div className="flex justify-between items-start mb-2">
-                      <span className="text-teal-200 text-sm font-medium">Review Rating</span>
+                      <span className="text-cyan-200 text-sm font-medium">Review Rating</span>
                       <span className="text-2xl font-bold text-white">4.9★</span>
                     </div>
-                    <p className="text-teal-100 text-sm">Average rating across managed properties</p>
+                    <p className="text-cyan-100 text-sm">Average rating across managed properties</p>
                   </div>
 
                   <div className="bg-white/5 rounded-xl p-5">
                     <div className="flex justify-between items-start mb-2">
-                      <span className="text-teal-200 text-sm font-medium">Time Saved</span>
+                      <span className="text-cyan-200 text-sm font-medium">Time Saved</span>
                       <span className="text-2xl font-bold text-white">20+ hrs</span>
                     </div>
-                    <p className="text-teal-100 text-sm">Per month per property</p>
+                    <p className="text-cyan-100 text-sm">Per month per property</p>
                   </div>
                 </div>
               </div>
@@ -327,7 +327,7 @@ export default function AirbnbManagement() {
             transition={{ duration: 0.6 }}
             className="text-center max-w-2xl mx-auto mb-16"
           >
-            <span className="text-teal-600 font-semibold text-sm uppercase tracking-wider">
+            <span className="text-cyan-600 font-semibold text-sm uppercase tracking-wider">
               Simple Pricing
             </span>
             <h2 className="mt-3 text-3xl sm:text-4xl font-bold text-slate-900">
@@ -344,7 +344,7 @@ export default function AirbnbManagement() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
-              className="bg-white rounded-3xl shadow-xl p-8 lg:p-12 border-2 border-teal-100"
+              className="bg-white rounded-3xl shadow-xl p-8 lg:p-12 border-2 border-cyan-100"
             >
               <div className="text-center mb-8">
                 <div className="inline-flex items-baseline gap-2 mb-4">
@@ -370,16 +370,16 @@ export default function AirbnbManagement() {
                       transition={{ duration: 0.4, delay: index * 0.05 }}
                       className="flex items-center gap-3"
                     >
-                      <CheckCircle2 className="w-5 h-5 text-teal-600 flex-shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-cyan-600 flex-shrink-0" />
                       <span className="text-slate-700">{feature}</span>
                     </motion.div>
                   ))}
                 </div>
               </div>
 
-              <div className="bg-teal-50 rounded-2xl p-6 mb-8">
+              <div className="bg-cyan-50 rounded-2xl p-6 mb-8">
                 <div className="flex items-start gap-3">
-                  <Zap className="w-6 h-6 text-teal-600 flex-shrink-0 mt-1" />
+                  <Zap className="w-6 h-6 text-cyan-600 flex-shrink-0 mt-1" />
                   <div>
                     <p className="font-semibold text-slate-900 mb-2">
                       Why This Model Works
@@ -394,7 +394,7 @@ export default function AirbnbManagement() {
               </div>
 
               <Link to={createPageUrl('Contact')}>
-                <Button size="lg" className="w-full bg-teal-600 hover:bg-teal-700 text-white py-6 text-lg rounded-xl">
+                <Button size="lg" className="w-full bg-cyan-600 hover:bg-cyan-700 text-white py-6 text-lg rounded-xl">
                   Get a Custom Quote
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </Button>
@@ -414,7 +414,7 @@ export default function AirbnbManagement() {
             transition={{ duration: 0.6 }}
             className="text-center max-w-2xl mx-auto mb-16"
           >
-            <span className="text-teal-600 font-semibold text-sm uppercase tracking-wider">
+            <span className="text-cyan-600 font-semibold text-sm uppercase tracking-wider">
               Getting Started
             </span>
             <h2 className="mt-3 text-3xl sm:text-4xl font-bold text-slate-900">
@@ -461,10 +461,10 @@ export default function AirbnbManagement() {
                 className="text-center"
               >
                 <div className="relative mb-6">
-                  <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-teal-50 to-teal-100 flex items-center justify-center mx-auto">
-                    <item.icon className="w-8 h-8 text-teal-600" />
+                  <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-cyan-50 to-cyan-100 flex items-center justify-center mx-auto">
+                    <item.icon className="w-8 h-8 text-cyan-600" />
                   </div>
-                  <div className="absolute -top-2 -right-2 w-8 h-8 rounded-full bg-teal-600 text-white flex items-center justify-center text-sm font-bold">
+                  <div className="absolute -top-2 -right-2 w-8 h-8 rounded-full bg-cyan-600 text-white flex items-center justify-center text-sm font-bold">
                     {item.step}
                   </div>
                 </div>
@@ -497,7 +497,7 @@ export default function AirbnbManagement() {
               Schedule a free consultation and discover how much more your property could be earning.
             </p>
             <Link to={createPageUrl('Contact')}>
-              <Button size="lg" className="mt-8 bg-teal-600 hover:bg-teal-700 text-white px-10 py-6 text-lg rounded-xl shadow-lg shadow-teal-600/30">
+              <Button size="lg" className="mt-8 bg-cyan-600 hover:bg-cyan-700 text-white px-10 py-6 text-lg rounded-xl shadow-lg shadow-cyan-600/30">
                 Schedule Free Consultation
                 <ArrowRight className="ml-2 w-5 h-5" />
               </Button>

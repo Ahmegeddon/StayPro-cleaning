@@ -85,7 +85,7 @@ export default function ServicesOverview() {
           transition={{ duration: 0.6 }}
           className="text-center max-w-2xl mx-auto mb-16"
         >
-          <span className="text-teal-600 font-semibold text-sm uppercase tracking-wider">
+          <span className="text-cyan-600 font-semibold text-sm uppercase tracking-wider">
             Our Services
           </span>
           <h2 className="mt-3 text-3xl sm:text-4xl font-bold text-slate-900">
@@ -110,7 +110,7 @@ export default function ServicesOverview() {
                 <div className={`
                   group relative h-full p-8 rounded-2xl transition-all duration-300
                   ${service.highlight 
-                    ? 'bg-gradient-to-br from-teal-600 to-teal-700 text-white shadow-xl shadow-teal-600/20' 
+                    ? 'bg-gradient-to-br from-cyan-600 to-cyan-700 text-white shadow-xl shadow-cyan-600/20' 
                     : 'bg-slate-50 hover:bg-white hover:shadow-lg border border-slate-100'
                   }
                 `}>
@@ -126,23 +126,23 @@ export default function ServicesOverview() {
                     w-14 h-14 rounded-xl flex items-center justify-center mb-5
                     ${service.highlight 
                       ? 'bg-white/20' 
-                      : 'bg-teal-50 group-hover:bg-teal-100'
+                      : 'bg-cyan-50 group-hover:bg-cyan-100'
                     }
                   `}>
-                    <service.icon className={`w-7 h-7 ${service.highlight ? 'text-white' : 'text-teal-600'}`} />
+                    <service.icon className={`w-7 h-7 ${service.highlight ? 'text-white' : 'text-cyan-600'}`} />
                   </div>
 
                   <h3 className={`text-xl font-semibold mb-3 ${service.highlight ? 'text-white' : 'text-slate-900'}`}>
                     {service.title}
                   </h3>
 
-                  <p className={`mb-5 ${service.highlight ? 'text-teal-100' : 'text-slate-600'}`}>
+                  <p className={`mb-5 ${service.highlight ? 'text-cyan-100' : 'text-slate-600'}`}>
                     {service.description}
                   </p>
 
                   <div className={`
                     inline-flex items-center font-medium transition-transform group-hover:translate-x-1
-                    ${service.highlight ? 'text-white' : 'text-teal-600'}
+                    ${service.highlight ? 'text-white' : 'text-cyan-600'}
                   `}>
                     Learn more
                     <ArrowRight className="ml-2 w-4 h-4" />

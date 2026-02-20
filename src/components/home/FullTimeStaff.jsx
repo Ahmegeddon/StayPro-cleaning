@@ -45,9 +45,9 @@ export default function FullTimeStaff() {
           transition={{ duration: 0.6 }}
           className="text-center max-w-3xl mx-auto mb-16"
         >
-          <div className="inline-flex items-center gap-2 bg-teal-50 border border-teal-100 rounded-full px-4 py-2 mb-4">
-            <Users className="w-4 h-4 text-teal-600" />
-            <span className="text-teal-700 text-sm font-medium">Full-Time Solutions</span>
+          <div className="inline-flex items-center gap-2 bg-cyan-50 border border-cyan-100 rounded-full px-4 py-2 mb-4">
+            <Users className="w-4 h-4 text-cyan-600" />
+            <span className="text-cyan-700 text-sm font-medium">Full-Time Solutions</span>
           </div>
           <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">
             Dedicated Full-Time Cleaning Staff
@@ -69,8 +69,8 @@ export default function FullTimeStaff() {
               transition={{ duration: 0.5, delay: index * 0.1 }}
               className="bg-slate-50 rounded-2xl p-6 text-center"
             >
-              <div className="w-14 h-14 rounded-xl bg-teal-100 flex items-center justify-center mx-auto mb-4">
-                <factor.icon className="w-7 h-7 text-teal-600" />
+              <div className="w-14 h-14 rounded-xl bg-cyan-100 flex items-center justify-center mx-auto mb-4">
+                <factor.icon className="w-7 h-7 text-cyan-600" />
               </div>
               <h3 className="text-xl font-semibold text-slate-900 mb-2">
                 {factor.title}
@@ -86,7 +86,7 @@ export default function FullTimeStaff() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="bg-gradient-to-br from-teal-50 to-slate-50 rounded-3xl p-8 lg:p-12 mb-12"
+          className="bg-gradient-to-br from-cyan-50 to-slate-50 rounded-3xl p-8 lg:p-12 mb-12"
         >
           <h3 className="text-2xl font-bold text-slate-900 mb-8 text-center">
             What's Included
@@ -101,7 +101,7 @@ export default function FullTimeStaff() {
                 transition={{ duration: 0.4, delay: index * 0.05 }}
                 className="flex items-start gap-3"
               >
-                <div className="w-6 h-6 rounded-full bg-teal-600 flex items-center justify-center flex-shrink-0 mt-0.5">
+                <div className="w-6 h-6 rounded-full bg-cyan-600 flex items-center justify-center flex-shrink-0 mt-0.5">
                   <CheckCircle2 className="w-4 h-4 text-white" />
                 </div>
                 <span className="text-slate-700 font-medium">{benefit}</span>
@@ -122,7 +122,7 @@ export default function FullTimeStaff() {
             Custom rates based on your specific requirements
           </p>
           <Link to={createPageUrl('Contact')}>
-            <Button size="lg" className="bg-teal-600 hover:bg-teal-700 text-white px-8 py-6 text-lg rounded-xl shadow-lg">
+            <Button size="lg" className="bg-cyan-600 hover:bg-cyan-700 text-white px-8 py-6 text-lg rounded-xl shadow-lg">
               Get a Custom Quote
               <ChevronRight className="ml-2 w-5 h-5" />
             </Button>

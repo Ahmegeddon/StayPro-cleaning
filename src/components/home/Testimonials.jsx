@@ -41,7 +41,7 @@ export default function Testimonials() {
           transition={{ duration: 0.6 }}
           className="text-center max-w-2xl mx-auto mb-16"
         >
-          <span className="text-teal-600 font-semibold text-sm uppercase tracking-wider">
+          <span className="text-cyan-600 font-semibold text-sm uppercase tracking-wider">
             Testimonials
           </span>
           <h2 className="mt-3 text-3xl sm:text-4xl font-bold text-slate-900">
@@ -65,7 +65,7 @@ export default function Testimonials() {
             >
               {/* Quote Icon */}
               <div className="absolute -top-4 right-8">
-                <div className="w-10 h-10 rounded-full bg-teal-600 flex items-center justify-center">
+                <div className="w-10 h-10 rounded-full bg-cyan-600 flex items-center justify-center">
                   <Quote className="w-5 h-5 text-white fill-white" />
                 </div>
               </div>

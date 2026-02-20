@@ -114,7 +114,7 @@ export default function OtherServices() {
             transition={{ duration: 0.6 }}
             className="text-center max-w-3xl mx-auto"
           >
-            <span className="inline-flex items-center gap-2 bg-teal-50 border border-teal-100 text-teal-700 rounded-full px-4 py-2 text-sm font-medium mb-6">
+            <span className="inline-flex items-center gap-2 bg-cyan-50 border border-cyan-100 text-cyan-700 rounded-full px-4 py-2 text-sm font-medium mb-6">
               <Home className="w-4 h-4" />
               Additional Services
             </span>
@@ -148,8 +148,8 @@ export default function OtherServices() {
               >
                 {/* Content */}
                 <div className={index % 2 === 1 ? 'lg:order-2' : ''}>
-                  <div className="w-14 h-14 rounded-xl bg-teal-100 flex items-center justify-center mb-6">
-                    <service.icon className="w-7 h-7 text-teal-600" />
+                  <div className="w-14 h-14 rounded-xl bg-cyan-100 flex items-center justify-center mb-6">
+                    <service.icon className="w-7 h-7 text-cyan-600" />
                   </div>
 
                   <h2 className="text-3xl font-bold text-slate-900 mb-4">
@@ -163,14 +163,14 @@ export default function OtherServices() {
                   <div className="grid sm:grid-cols-2 gap-3 mb-8">
                     {service.features.map((feature) => (
                       <div key={feature} className="flex items-center gap-2">
-                        <CheckCircle2 className="w-5 h-5 text-teal-600 flex-shrink-0" />
+                        <CheckCircle2 className="w-5 h-5 text-cyan-600 flex-shrink-0" />
                         <span className="text-slate-700 text-sm">{feature}</span>
                       </div>
                     ))}
                   </div>
 
                   <Link to={createPageUrl('Contact')}>
-                    <Button className="bg-teal-600 hover:bg-teal-700 text-white rounded-lg">
+                    <Button className="bg-cyan-600 hover:bg-cyan-700 text-white rounded-lg">
                       Request a Quote
                       <ArrowRight className="ml-2 w-4 h-4" />
                     </Button>
@@ -211,7 +211,7 @@ export default function OtherServices() {
               Contact us and we'll help you find the perfect cleaning solution for your property.
             </p>
             <Link to={createPageUrl('Contact')}>
-              <Button size="lg" className="mt-8 bg-teal-600 hover:bg-teal-700 text-white px-8 py-6 text-lg rounded-xl">
+              <Button size="lg" className="mt-8 bg-cyan-600 hover:bg-cyan-700 text-white px-8 py-6 text-lg rounded-xl">
                 Talk to Our Team
                 <ArrowRight className="ml-2 w-5 h-5" />
               </Button>
