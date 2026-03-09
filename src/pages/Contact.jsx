@@ -402,26 +402,6 @@ export default function Contact() {
                 q: 'What areas in Abu Dhabi do you cover?',
                 a: 'We cover all major areas including Al Reem Island, Yas Island, Saadiyat Island, Al Raha Beach, Corniche, Al Maryah Island, Khalifa City, and more.',
               },
-            ].slice(0, 0).concat([{
-                q: 'How quickly can you schedule a cleaning?',
-                a: 'We offer same-day cleaning for urgent requests and typically can schedule within 24-48 hours for regular bookings.',
-              },
-              {
-                q: 'Do you bring your own cleaning supplies?',
-                a: 'Yes, our teams arrive fully equipped with professional-grade, eco-friendly cleaning products and equipment.',
-              },
-              {
-                q: 'How long does an Airbnb turnover cleaning take?',
-                a: 'Depending on the property size, turnover cleanings typically take 2-4 hours to ensure thorough results.',
-              },
-              {
-                q: 'Can you coordinate with check-in/check-out times?',
-                a: 'Absolutely! We specialize in working around your guest schedules and can coordinate directly with your booking calendar.',
-              },
-              {
-                q: 'Do you offer recurring cleaning packages?',
-                a: 'Yes, we offer flexible packages including per-turnover pricing and monthly subscription plans for regular hosts.',
-              },
             ].map((faq, index) => (
               <motion.div
                 key={index}
