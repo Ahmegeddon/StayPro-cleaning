@@ -379,6 +379,30 @@ export default function Contact() {
           <div className="max-w-3xl mx-auto space-y-4">
             {[
               {
+                q: 'What does full property management include?',
+                a: 'Our full management covers everything: listing creation, dynamic pricing, 24/7 guest communication, check-in/check-out coordination, professional cleaning, linen management, maintenance, and monthly reporting.',
+              },
+              {
+                q: 'How much can I earn with StayPro managing my property?',
+                a: 'On average, our managed properties see a 30-40% increase in revenue compared to self-managed rentals, thanks to optimized pricing and higher occupancy rates.',
+              },
+              {
+                q: 'How quickly can you onboard my property?',
+                a: 'Most properties are fully set up and live on booking platforms within 5-7 days of signing with us, including photography and listing creation.',
+              },
+              {
+                q: 'Can I just use your cleaning services without full management?',
+                a: 'Absolutely. We offer standalone Airbnb and STR cleaning services for hosts who manage their own bookings but want professional cleaning support.',
+              },
+              {
+                q: 'Do you handle maintenance and repairs?',
+                a: 'Yes. Our full management includes proactive maintenance, emergency repair coordination, and a network of trusted local vendors to keep your property in perfect condition.',
+              },
+              {
+                q: 'What areas in Abu Dhabi do you cover?',
+                a: 'We cover all major areas including Al Reem Island, Yas Island, Saadiyat Island, Al Raha Beach, Corniche, Al Maryah Island, Khalifa City, and more.',
+              },
+            ].slice(0, 0).concat([{
                 q: 'How quickly can you schedule a cleaning?',
                 a: 'We offer same-day cleaning for urgent requests and typically can schedule within 24-48 hours for regular bookings.',
               },
