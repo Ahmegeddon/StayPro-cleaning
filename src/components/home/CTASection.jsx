@@ -24,17 +24,17 @@ export default function CTASection() {
           className="text-center max-w-3xl mx-auto"
         >
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight">
-            Ready for Spotless Turnovers?
+            Ready to Maximize Your Property's Potential?
           </h2>
           <p className="mt-6 text-xl text-cyan-100 leading-relaxed">
-            Join hundreds of Airbnb hosts who trust us to keep their properties 
-            guest-ready and review-worthy.
+            Join Abu Dhabi's most trusted Airbnb & short-term rental management company. 
+            Let us handle everything while you grow your rental income.
           </p>
 
           <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
             <Link to={createPageUrl('Contact')}>
               <Button size="lg" className="bg-white text-cyan-700 hover:bg-cyan-50 px-8 py-6 text-lg rounded-xl shadow-lg w-full sm:w-auto">
-                Get Your Free Quote
+                Get Your Free Consultation
                 <ArrowRight className="ml-2 w-5 h-5" />
               </Button>
             </Link>

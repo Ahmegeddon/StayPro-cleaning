@@ -6,25 +6,25 @@ const testimonials = [
   {
     name: 'Sarah M.',
     role: 'Airbnb Superhost',
-    location: 'Dubai Marina',
+    location: 'Al Reem Island',
     image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&q=80',
-    content: 'Since partnering with SparkleStay, my reviews consistently mention how clean the apartment is. They understand what Airbnb guests expect.',
+    content: 'Since switching to StayPro\'s full management, my revenue has increased by over 30%. They handle every single detail — I just receive the monthly transfer.',
     rating: 5,
   },
   {
     name: 'Ahmed K.',
-    role: 'Property Manager',
-    location: 'Downtown Dubai',
+    role: 'Property Investor',
+    location: 'Yas Island',
     image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&q=80',
-    content: 'Managing 15 short-term rentals requires reliable partners. Their scheduling aligns perfectly with our check-ins, and quality never wavers.',
+    content: 'Managing 4 short-term rentals used to be a full-time job. StayPro took over completely — cleaning, guests, pricing, maintenance. My reviews have never been higher.',
     rating: 5,
   },
   {
     name: 'Emma L.',
     role: 'Holiday Home Owner',
-    location: 'Palm Jumeirah',
+    location: 'Saadiyat Island',
     image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&q=80',
-    content: 'The attention to detail is incredible. They even coordinate linen changes and restock essentials. It\'s like having a hotel housekeeping team.',
+    content: 'The cleaning and turnover standards are incredible. Every guest mentions how pristine the apartment is. It genuinely feels like a boutique hotel experience.',
     rating: 5,
   },
 ];
@@ -42,13 +42,13 @@ export default function Testimonials() {
           className="text-center max-w-2xl mx-auto mb-16"
         >
           <span className="text-cyan-600 font-semibold text-sm uppercase tracking-wider">
-            Testimonials
+            Client Stories
           </span>
           <h2 className="mt-3 text-3xl sm:text-4xl font-bold text-slate-900">
-            Trusted by Hosts Across Abu Dhabi
+            Trusted by Property Owners Across Abu Dhabi
           </h2>
           <p className="mt-4 text-lg text-slate-600">
-            Join hundreds of satisfied property owners and managers
+            Hear from hosts and investors who've transformed their rentals with StayPro
           </p>
         </motion.div>
 
@@ -107,8 +107,8 @@ export default function Testimonials() {
           className="mt-16 text-center"
         >
           <div className="inline-flex items-center gap-3 bg-slate-100 rounded-full px-6 py-3">
-            <span className="text-slate-600 font-medium">Proud partner of</span>
-            <span className="text-slate-900 font-bold">500+ Airbnb Hosts & Property Managers</span>
+            <span className="text-slate-600 font-medium">Trusted by</span>
+            <span className="text-slate-900 font-bold">20+ Property Owners & Airbnb Hosts in Abu Dhabi</span>
           </div>
         </motion.div>
       </div>

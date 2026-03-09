@@ -1,73 +1,73 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { 
-  Home, 
-  Building2, 
-  Sparkles, 
-  Truck, 
-  Building, 
-  Hammer,
-  Users,
-  ArrowRight,
-  Building as BuildingIcon
+import {
+  Building2,
+  Home,
+  TrendingUp,
+  MessageSquare,
+  Wrench,
+  Sparkles,
+  Truck,
+  Camera,
+  ArrowRight
 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from '@/utils';
 
 const services = [
   {
-    icon: Home,
-    title: 'Airbnb & Short-Term Rentals',
-    description: 'Full turnover cleaning between guests with hotel-standard results. Our specialty.',
-    highlight: true,
-    link: 'AirbnbCleaning',
-  },
-  {
-    icon: Building,
+    icon: Building2,
     title: 'Full Property Management',
-    description: 'Hands-free Airbnb management. We handle everything — bookings, guests, cleaning, listings — you just collect profits.',
+    description: 'Completely hands-free Airbnb & STR management. Bookings, guests, cleaning, maintenance — you just collect the profits.',
     highlight: true,
     link: 'AirbnbManagement',
   },
   {
-    icon: Users,
-    title: 'Full-Time Cleaning Staff',
-    description: 'Dedicated professional cleaners for your home or office with flexible scheduling.',
+    icon: Home,
+    title: 'Airbnb & STR Cleaning',
+    description: 'Hotel-standard turnover cleaning between every guest stay. Our specialty — keeping your reviews consistently stellar.',
+    highlight: true,
+    link: 'AirbnbCleaning',
+  },
+  {
+    icon: TrendingUp,
+    title: 'Revenue Optimization',
+    description: 'Dynamic pricing strategy, listing SEO, and platform management to maximize your rental income year-round.',
+    highlight: false,
+    link: 'AirbnbManagement',
+  },
+  {
+    icon: MessageSquare,
+    title: 'Guest Experience',
+    description: '24/7 guest communication, seamless check-ins, welcome packages, and review management for 5-star stays.',
+    highlight: false,
+    link: 'AirbnbManagement',
+  },
+  {
+    icon: Wrench,
+    title: 'Maintenance & Repairs',
+    description: 'Preventive maintenance, emergency repairs, and trusted vendor coordination to keep your property in top condition.',
     highlight: false,
     link: 'OtherServices',
   },
   {
     icon: Sparkles,
-    title: 'Deep Cleaning',
-    description: 'Thorough top-to-bottom cleaning for properties needing extra attention.',
+    title: 'Deep & Seasonal Cleaning',
+    description: 'Thorough top-to-bottom cleans for seasonal refreshes, post-renovation, or properties that need extra attention.',
     highlight: false,
     link: 'OtherServices',
   },
   {
-    icon: Building2,
-    title: 'Residential Cleaning',
-    description: 'Regular home cleaning to keep your living space fresh and welcoming.',
+    icon: Camera,
+    title: 'Listing & Photography',
+    description: 'Professional photography, compelling listing descriptions, and platform optimization to attract premium guests.',
     highlight: false,
-    link: 'OtherServices',
+    link: 'AirbnbManagement',
   },
   {
     icon: Truck,
     title: 'Move-In / Move-Out',
-    description: 'Complete cleaning for smooth property transitions.',
-    highlight: false,
-    link: 'OtherServices',
-  },
-  {
-    icon: Building,
-    title: 'Office & Commercial',
-    description: 'Professional cleaning for workspaces and commercial properties.',
-    highlight: false,
-    link: 'OtherServices',
-  },
-  {
-    icon: Hammer,
-    title: 'Post-Renovation',
-    description: 'Detailed cleanup after construction or renovation work.',
+    description: 'Complete cleaning and property preparation for smooth transitions between long and short-term tenants.',
     highlight: false,
     link: 'OtherServices',
   },
@@ -89,10 +89,10 @@ export default function ServicesOverview() {
             Our Services
           </span>
           <h2 className="mt-3 text-3xl sm:text-4xl font-bold text-slate-900">
-            Cleaning Solutions for Every Need
+            Everything Your Rental Business Needs
           </h2>
           <p className="mt-4 text-lg text-slate-600">
-            From Airbnb turnovers to deep cleaning, we deliver spotless results every time.
+            From full property management to individual cleaning services — we cover every aspect of your short-term rental.
           </p>
         </motion.div>
 
@@ -109,8 +109,8 @@ export default function ServicesOverview() {
               <Link to={createPageUrl(service.link)} className="block h-full">
                 <div className={`
                   group relative h-full p-8 rounded-2xl transition-all duration-300
-                  ${service.highlight 
-                    ? 'bg-gradient-to-br from-cyan-600 to-cyan-700 text-white shadow-xl shadow-cyan-600/20' 
+                  ${service.highlight
+                    ? 'bg-gradient-to-br from-cyan-600 to-cyan-700 text-white shadow-xl shadow-cyan-600/20'
                     : 'bg-slate-50 hover:bg-white hover:shadow-lg border border-slate-100'
                   }
                 `}>
@@ -124,8 +124,8 @@ export default function ServicesOverview() {
 
                   <div className={`
                     w-14 h-14 rounded-xl flex items-center justify-center mb-5
-                    ${service.highlight 
-                      ? 'bg-white/20' 
+                    ${service.highlight
+                      ? 'bg-white/20'
                       : 'bg-cyan-50 group-hover:bg-cyan-100'
                     }
                   `}>

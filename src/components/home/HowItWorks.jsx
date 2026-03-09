@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { MessageSquare, CalendarDays, Sparkles, ArrowRight } from 'lucide-react';
+import { MessageSquare, Camera, Sparkles, TrendingUp, ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from '@/utils';
@@ -9,20 +9,26 @@ const steps = [
   {
     number: '01',
     icon: MessageSquare,
-    title: 'Request a Quote',
-    description: 'Tell us about your property and cleaning needs. We respond within hours.',
+    title: 'Free Consultation',
+    description: 'We assess your property, discuss your goals, and build a tailored management plan.',
   },
   {
     number: '02',
-    icon: CalendarDays,
-    title: 'Schedule Your Cleaning',
-    description: 'Choose a time that fits your check-out/check-in schedule perfectly.',
+    icon: Camera,
+    title: 'Setup & Onboarding',
+    description: 'Professional photography, listing creation, and full system integration within days.',
   },
   {
     number: '03',
     icon: Sparkles,
-    title: 'We Handle the Rest',
-    description: 'Our team arrives on time and delivers spotless, guest-ready results.',
+    title: 'We Handle Everything',
+    description: 'Bookings, guest communication, cleaning, maintenance — all managed seamlessly.',
+  },
+  {
+    number: '04',
+    icon: TrendingUp,
+    title: 'You Earn & Grow',
+    description: 'Receive monthly profit reports and watch your revenue grow while you relax.',
   },
 ];
 
@@ -42,29 +48,26 @@ export default function HowItWorks() {
             How It Works
           </span>
           <h2 className="mt-3 text-3xl sm:text-4xl font-bold text-slate-900">
-            Booking Is Simple
+            From Property to Passive Income
           </h2>
           <p className="mt-4 text-lg text-slate-600">
-            Three easy steps to a spotlessly clean property
+            Four simple steps to a fully managed, high-performing rental
           </p>
         </motion.div>
 
         {/* Steps */}
         <div className="relative">
-          {/* Connection Line - Desktop */}
-          <div className="hidden lg:block absolute top-24 left-1/2 -translate-x-1/2 w-2/3 h-0.5 bg-gradient-to-r from-cyan-100 via-cyan-200 to-cyan-100" />
-
-          <div className="grid md:grid-cols-3 gap-8 lg:gap-12">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-8">
             {steps.map((step, index) => (
               <motion.div
                 key={step.number}
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: index * 0.2 }}
+                transition={{ duration: 0.5, delay: index * 0.15 }}
                 className="relative"
               >
-                <div className="bg-white rounded-2xl p-8 text-center relative z-10">
+                <div className="bg-white rounded-2xl p-8 text-center relative z-10 border border-slate-100 hover:shadow-lg transition-shadow">
                   {/* Number Badge */}
                   <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-cyan-600 text-white text-sm font-bold px-4 py-1 rounded-full">
                     Step {step.number}
@@ -86,8 +89,8 @@ export default function HowItWorks() {
 
                 {/* Arrow - Desktop */}
                 {index < steps.length - 1 && (
-                  <div className="hidden lg:block absolute top-24 -right-6 z-20">
-                    <ArrowRight className="w-8 h-8 text-cyan-300" />
+                  <div className="hidden lg:block absolute top-1/2 -right-5 z-20 -translate-y-1/2">
+                    <ArrowRight className="w-7 h-7 text-cyan-300" />
                   </div>
                 )}
               </motion.div>
@@ -105,7 +108,7 @@ export default function HowItWorks() {
         >
           <Link to={createPageUrl('Contact')}>
             <Button size="lg" className="bg-cyan-600 hover:bg-cyan-700 text-white px-8 py-6 text-lg rounded-xl shadow-lg shadow-cyan-600/20">
-              Get Started Today
+              Start Your Free Consultation
               <ArrowRight className="ml-2 w-5 h-5" />
             </Button>
           </Link>

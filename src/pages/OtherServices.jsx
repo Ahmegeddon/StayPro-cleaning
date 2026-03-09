@@ -11,11 +11,56 @@ import {
   Hammer,
   Home,
   Users,
+  Wrench,
+  Camera,
+  TrendingUp,
   ArrowRight,
   CheckCircle2
 } from 'lucide-react';
 
-const services = [
+const propertyServices = [
+  {
+    icon: Wrench,
+    title: 'Property Maintenance & Repairs',
+    description: 'Proactive maintenance programs and rapid-response repairs to keep your property in perfect condition year-round. We coordinate trusted local vendors so you never have to.',
+    features: [
+      'Scheduled preventive maintenance',
+      'Emergency repair response',
+      'Trusted vendor network',
+      'Appliance & fixture servicing',
+      'Plumbing & electrical coordination',
+      'Property condition reporting',
+    ],
+    image: 'https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=600&q=80',
+  },
+  {
+    icon: Camera,
+    title: 'Interior Staging & Photography',
+    description: 'First impressions matter. Professional staging advice and photography that make your listing stand out, attract premium guests, and command higher nightly rates.',
+    features: [
+      'Professional property photography',
+      'Staging and presentation guidance',
+      'Listing image optimization',
+      'Virtual tour coordination',
+      'Seasonal refresh recommendations',
+      'Competitive visual benchmarking',
+    ],
+    image: 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=600&q=80',
+  },
+  {
+    icon: TrendingUp,
+    title: 'Revenue & Pricing Strategy',
+    description: 'Data-driven pricing consultation to maximize your occupancy and nightly rates. We analyze local market trends and competitor pricing to keep your earnings at their peak.',
+    features: [
+      'Dynamic pricing analysis',
+      'Seasonal rate optimization',
+      'Competitor benchmarking',
+      'Platform channel management',
+      'Occupancy gap strategies',
+      'Monthly revenue reporting',
+    ],
+    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&q=80',
+  },
   {
     icon: Users,
     title: 'Full-Time Cleaning Staff',
@@ -47,7 +92,7 @@ const services = [
   {
     icon: Sparkles,
     title: 'Deep Cleaning',
-    description: 'A thorough top-to-bottom clean for properties that need extra attention. Ideal for seasonal cleaning, pre-event preparation, or neglected spaces.',
+    description: 'A thorough top-to-bottom clean for properties that need extra attention. Ideal for seasonal cleaning, pre-event preparation, or long-vacant spaces.',
     features: [
       'Inside cabinets and appliances',
       'Behind and under furniture',
@@ -61,7 +106,7 @@ const services = [
   {
     icon: Truck,
     title: 'Move-In / Move-Out Cleaning',
-    description: 'Complete cleaning for smooth property transitions. Whether you\'re moving in or out, we ensure the space is spotless for the next chapter.',
+    description: 'Complete cleaning for smooth property transitions. Whether you\'re moving in or out, we ensure the space is spotless and ready for the next chapter.',
     features: [
       'Empty property deep clean',
       'Inside all closets and storage',
@@ -89,7 +134,7 @@ const services = [
   {
     icon: Hammer,
     title: 'Post-Renovation Cleaning',
-    description: 'Detailed cleanup after construction or renovation work. We remove the dust and debris so you can enjoy your newly renovated space.',
+    description: 'Detailed cleanup after construction or renovation work. We remove the dust and debris so you can enjoy your newly renovated space right away.',
     features: [
       'Construction dust removal',
       'Paint splatter cleaning',
@@ -116,16 +161,16 @@ export default function OtherServices() {
           >
             <span className="inline-flex items-center gap-2 bg-cyan-50 border border-cyan-100 text-cyan-700 rounded-full px-4 py-2 text-sm font-medium mb-6">
               <Home className="w-4 h-4" />
-              Additional Services
+              All Services
             </span>
 
             <h1 className="text-4xl sm:text-5xl font-bold text-slate-900 leading-tight">
-              Cleaning Services for Every Need
+              Comprehensive Property & Cleaning Services
             </h1>
 
             <p className="mt-6 text-xl text-slate-600 leading-relaxed">
-              Beyond Airbnb cleaning, we offer a full range of professional cleaning 
-              services for homes, offices, and commercial properties.
+              Beyond full management and Airbnb cleaning, we offer a complete suite of 
+              property services — from maintenance and staging to residential and commercial cleaning.
             </p>
           </motion.div>
         </div>
@@ -135,7 +180,7 @@ export default function OtherServices() {
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="space-y-24">
-            {services.map((service, index) => (
+            {propertyServices.map((service, index) => (
               <motion.div
                 key={service.title}
                 initial={{ opacity: 0, y: 40 }}
@@ -208,7 +253,7 @@ export default function OtherServices() {
               Not Sure Which Service You Need?
             </h2>
             <p className="mt-4 text-lg text-slate-600">
-              Contact us and we'll help you find the perfect cleaning solution for your property.
+              Contact us and we'll recommend the perfect solution for your property and goals.
             </p>
             <Link to={createPageUrl('Contact')}>
               <Button size="lg" className="mt-8 bg-cyan-600 hover:bg-cyan-700 text-white px-8 py-6 text-lg rounded-xl">
