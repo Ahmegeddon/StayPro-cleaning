@@ -27,9 +27,12 @@ import {
 } from 'lucide-react';
 
 const serviceOptions = [
-  { value: 'airbnb', label: 'Airbnb / Short-Term Rental Cleaning', icon: Home },
-  { value: 'residential', label: 'Residential Cleaning', icon: Building },
+  { value: 'full-management', label: 'Full Property Management', icon: Building },
+  { value: 'airbnb', label: 'Airbnb / STR Cleaning', icon: Home },
+  { value: 'revenue', label: 'Revenue & Pricing Optimization', icon: Building },
+  { value: 'maintenance', label: 'Maintenance & Repairs', icon: Hammer },
   { value: 'deep', label: 'Deep Cleaning', icon: Sparkles },
+  { value: 'residential', label: 'Residential Cleaning', icon: Building },
   { value: 'move', label: 'Move-In / Move-Out Cleaning', icon: Truck },
   { value: 'office', label: 'Office & Commercial Cleaning', icon: Building },
   { value: 'renovation', label: 'Post-Renovation Cleaning', icon: Hammer },
@@ -103,11 +106,11 @@ export default function Contact() {
             </div>
             
             <h1 className="text-4xl sm:text-5xl font-bold text-white leading-tight">
-              Get a Free Quote
+              Get Your Free Consultation
             </h1>
             <p className="mt-6 text-xl text-cyan-100 leading-relaxed">
-              Tell us about your property and cleaning needs. We'll get back to you 
-              within a few hours with a customized quote.
+              Tell us about your property and goals. We'll get back to you 
+              within a few hours with a tailored management or cleaning proposal.
             </p>
           </motion.div>
         </div>
