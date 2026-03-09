@@ -18,11 +18,11 @@ export default function Footer() {
                   className="w-full h-full object-contain"
                 />
               </div>
-              <span className="text-xl font-bold">StayPro Cleaning</span>
+              <span className="text-xl font-bold">StayPro</span>
             </Link>
             <p className="text-slate-400 leading-relaxed">
-              Professional Airbnb and short-term rental cleaning services. 
-              Keeping your properties guest-ready, every time.
+              Abu Dhabi's complete Airbnb & short-term rental management company. 
+              Full property management, professional cleaning, and everything in between.
             </p>
           </div>
 
@@ -32,9 +32,9 @@ export default function Footer() {
             <ul className="space-y-3">
               {[
                 { name: 'Home', page: 'Home' },
-                { name: 'Airbnb Cleaning', page: 'AirbnbCleaning' },
                 { name: 'Full Management', page: 'AirbnbManagement' },
-                { name: 'Other Services', page: 'OtherServices' },
+                { name: 'STR Cleaning', page: 'AirbnbCleaning' },
+                { name: 'All Services', page: 'OtherServices' },
                 { name: 'Contact Us', page: 'Contact' },
               ].map((link) => (
                 <li key={link.page}>
@@ -54,11 +54,12 @@ export default function Footer() {
             <h4 className="text-lg font-semibold mb-5">Services</h4>
             <ul className="space-y-3">
               {[
-                'Airbnb Cleaning',
                 'Full Property Management',
+                'Airbnb & STR Cleaning',
+                'Revenue Optimization',
+                'Maintenance & Repairs',
                 'Deep Cleaning',
-                'Move-In/Move-Out',
-                'Office Cleaning',
+                'Move-In / Move-Out',
               ].map((service) => (
                 <li key={service}>
                   <span className="text-slate-400">{service}</span>
@@ -105,7 +106,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-slate-800 flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-slate-500 text-sm">
-            © {new Date().getFullYear()} StayPro Cleaning. All rights reserved.
+            © {new Date().getFullYear()} StayPro. All rights reserved.
           </p>
           <div className="flex gap-6">
             <a href="#" className="text-slate-500 hover:text-slate-400 text-sm">Privacy Policy</a>

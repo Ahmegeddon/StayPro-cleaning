@@ -8,21 +8,22 @@ import Footer from '@/components/common/Footer';
 
 const navLinks = [
   { name: 'Home', page: 'Home' },
-  { name: 'Airbnb Cleaning', page: 'AirbnbCleaning' },
   { name: 'Full Management', page: 'AirbnbManagement' },
-  { name: 'Other Services', page: 'OtherServices' },
+  { name: 'STR Cleaning', page: 'AirbnbCleaning' },
+  { name: 'All Services', page: 'OtherServices' },
   { name: 'Contact', page: 'Contact' },
 ];
 
 export default function Layout({ children, currentPageName }) {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  // Navigation defined below
 
   return (
     <div className="min-h-screen flex flex-col bg-white">
       {/* Top Bar */}
       <div className="bg-slate-900 text-white py-2 hidden sm:block">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center text-sm">
-          <span className="text-slate-400">Professional Airbnb Cleaning in Abu Dhabi</span>
+          <span className="text-slate-400">Airbnb & Short-Term Rental Management — Abu Dhabi</span>
           <a href="tel:+971508695064" className="flex items-center gap-2 hover:text-cyan-400 transition-colors">
             <Phone className="w-4 h-4" />
             +971 50 869 5064
@@ -43,7 +44,7 @@ export default function Layout({ children, currentPageName }) {
                   className="w-full h-full object-contain"
                 />
               </div>
-              <span className="text-xl font-bold text-slate-900">StayPro Cleaning</span>
+              <span className="text-xl font-bold text-slate-900">StayPro</span>
             </Link>
 
             {/* Desktop Navigation */}
