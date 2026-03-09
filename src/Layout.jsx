@@ -16,7 +16,6 @@ const navLinks = [
 
 export default function Layout({ children, currentPageName }) {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  // Navigation defined below
 
   return (
     <div className="min-h-screen flex flex-col bg-white">
